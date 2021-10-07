@@ -1,0 +1,31 @@
+div{
+    color: aliceblue;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+.expenseItemBody{
+    border:1px solid black;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(144, 149, 149,0.5);
+
+}
+
+.expenseItem{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.items{
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    width: 33.3vw;
+    margin-left: 10px;
+}

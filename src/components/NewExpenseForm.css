@@ -1,0 +1,26 @@
+form{
+    margin-top: 10vh;
+    font-size: 2em;
+}
+
+.newExpenseControl{
+    width: 100vw;
+}
+
+label{
+    margin-left: 2vh;
+}
+
+input{
+    width:50vw;
+    height: 5vh;
+    margin: 2vh;
+    font-size: 1.2em;
+}
+
+button{
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+    font-size: 1.2em;
+    color:rgb(2, 141, 2);
+}
