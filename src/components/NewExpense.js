@@ -1,6 +1,6 @@
 import ExpenseForm from './NewExpenseForm'
 
-const NewExpense = () => {
+const NewExpense = (props) => {
 
     const saveFormDataHandler = (enteredData) =>{
         const formData = {
@@ -8,7 +8,7 @@ const NewExpense = () => {
             id:Math.random()
         }
 
-        console.log(formData)
+        props.onNewExpense(formData)
     }
 
     return(
